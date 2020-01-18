@@ -1,0 +1,946 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hi! Welcome My Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="plugin/jInvertScroll/dist/css/jInvertScroll.css">
+    <link rel="stylesheet" href="plugin/animate.css-master/animate.min.css">
+    <style>
+      *{
+        /* transition:.5s; */
+        box-sizing: border-box;
+        /* border: solid 2px #ccc; */
+        position: relative;
+        padding: 0;
+        margin: 0;
+        cursor: crosshair;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+        letter-spacing: 2px;
+      }
+      .ani-nor{
+        transition: .5s;
+      }
+      .ani-sp{
+        transition: 1s;
+        transition-timing-function: cubic-bezier(1, 0, 0, 1);
+      }
+      .center{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+      }
+      /* .pointerr{
+        cursor: pointer;
+      } */
+      .center{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+      }
+      /* *{
+        border: solid red 1px;
+      } */
+    </style>
+
+    <link rel="stylesheet" href="css/home_style.css">
+    <link rel="stylesheet" href="css/bg_line_style.css">
+    <link rel="stylesheet" href="css/work_page.css">
+    <style>
+      /* .none_bg{
+        display: none;
+      } */
+      .tinyText{
+        font-size: 18px;
+        letter-spacing: 0;
+      }
+      .titleIn{
+        top: 0vh;
+      }
+      #logo{
+        fill:black;
+      }
+      #logo:hover{
+        fill:#fff;
+      }
+      /* .site_logo{
+        filter:brightness(200%);
+      } */
+    </style>
+
+  </head>
+
+  <body>
+    <div class="bg_fix bgurl"></div>
+    
+    <div class="line_texture">
+      <figure class="texture10"></figure>
+      <figure class="texture11"></figure>
+      <figure data-600="top: 140vh;" data-1300="top: 120vh;"class="texture12"></figure>
+      <div class="bgIntro introbox ani-sp" id="introbox">
+        <div class="intro intro01">
+          <p class="yearText">20<br>11<br><br><br>20<br>15</p>
+          <p class="expText">Dept. of Art and Design<br>NDHU, Hualien city, Taiwan</p>
+        </div>
+        <div class="intro intro02">
+            <p class="yearText">20<br>15<br><br><br>20<br>16</p>
+            <p class="expText">Visual Designer<br>WeatherRisk Explore Inc.</p>
+        </div>
+        <div class="intro intro03">
+              <p class="yearText">20<br>17<br><br><br>20<br>19</p>
+              <p class="expText">News Graphic Assistant<br>CTI News TV</p>
+        </div>
+      </div>
+      <div class="smIntro introbox ani-sp" id="introbox">
+          <div class="intro ani-sp intro01">
+            <p class="yearText">20<br>11<br><br><br>20<br>15</p>
+            <p class="expText">Dept. of Art and Design<br>NDHU, Hualien city, Taiwan</p>
+          </div>
+          <div class="intro ani-sp intro02">
+              <p class="yearText">20<br>15<br><br><br>20<br>16</p>
+              <p class="expText">Visual Designer<br>WeatherRisk Explore Inc.</p>
+          </div>
+          <div class="intro ani-sp intro03">
+                <p class="yearText">20<br>17<br><br><br>20<br>19</p>
+                <p class="expText">News Graphic Assistant<br>CTI News TV</p>
+          </div>
+        </div>
+      <figure class="texture14"></figure>
+      <figure data-460="top: 180vh;"  data-2000="top: 220vh;" class="texture15"></figure>
+      <figure class="texture16"></figure>
+      <div class="thanku">
+        <h2><span>T</span>hanks for watching！</h2>
+      </div>
+      
+      <div class="bgTitle workTile">
+        <h2 data-200="left:85vw"data-2020="left:0vw"data-2580="left:-30vw"><span>#</span>Web Design</h2>
+      </div>
+      <div class="bgTitle workTile">
+        <h2 data-1100="left:85vw"data-2980="left:5vw"data-3480="left:-30vw"><span>#</span>Logotype</h2>
+      </div>
+      <div class="bgTitle workTile">
+        <h2 data-2100="left:90vw"data-5000="left:-36vw"><span>#</span>Illustration</h2>
+      </div>
+      <div class="bgTitle workTile">
+          <h2 data-2100="left:180vw"data-5000="left:-6vw"><span>#</span>Stop Motion</h2>
+        </div>
+
+      <figure class="texture17"></figure>
+      <figure class="texture18"></figure>
+
+      <div class="workTile smTitle title01 ani-sp">
+          <h2><span>#</span>Web Design</h2>
+      </div>
+      <div class="workTile smTitle title02 ani-sp">
+          <h2><span>#</span>Logotype</h2>
+      </div>
+      <div class="workTile smTitle title03 ani-sp">
+          <h2><span>#</span>Illustration</h2>
+      </div>
+      <div class="workTile smTitle title04 ani-sp">
+            <h2><span>#</span>Stop Motion</h2>
+      </div>
+    </div>
+    <main data-tilt   class="tiltRange">
+
+          <div  class="container mainLogo">
+            <img 
+            data-150="display:none"data-151="display:block
+            "class="logoPath path09 ani-nor" src="img/main-logo/main-logo-09-03.svg" alt="">
+  
+            
+            <img data-150="display:none"data-151="display:block"
+            class="logoPath path13 ani-nor" src="img/main-logo/main-logo-13-03.svg" alt="">
+          </div>
+  
+    </main>
+    <div class="bg_fix none_bg bgWork">
+          <div class="cataContent d-flex">
+              <section class="cataContent_item item01 ani-sp">
+                <a class="more_box">
+                  <img class="ani-nor more_btn" src="img/more.svg" alt="">
+                </a>
+              </section>
+              <!-- <section id="work" class="cataContent_item item05 ani-sp">
+                <a class="more_box">
+                  <img class="ani-nor more_btn" src="img/more.svg" alt="">
+                </a>
+              </section> -->
+              <section class="cataContent_item item02 ani-sp">
+                <a class="more_box">
+                  <img class="ani-nor more_btn" src="img/more.svg" alt="">
+                </a>
+              </section>
+              <section class="cataContent_item item03 ani-sp">
+                  <a class="more_box">
+                    <img class="ani-nor more_btn" src="img/more.svg" alt="">
+                  </a>
+              </section>
+              <section class="cataContent_item item04 ani-sp">
+                    <a class="more_box">
+                      <img class="ani-nor more_btn" src="img/more.svg" alt="">
+                    </a>
+              </section>
+              <!-- <section id="work" class="cataContent_item item06 ani-sp">
+                <a class="more_box">
+                  <img class="ani-nor more_btn" src="img/more.svg" alt="">
+                </a>
+            </section> -->
+            </div>
+    </div>
+    <div class="bg_fix none_bg smWork">
+        <div class="cataContent d-flex">
+            <section class="cataContent_item item01 ani-sp">
+              <a class="more_box">
+                <img class="ani-nor more_btn" src="img/more.svg" alt="">
+              </a>
+            </section>
+            <!-- <section id="work" class="cataContent_item item05 ani-sp">
+              <a class="more_box">
+                <img class="ani-nor more_btn" src="img/more.svg" alt="">
+              </a>
+            </section> -->
+            <section class="cataContent_item item02 ani-sp">
+              <a class="more_box">
+                <img class="ani-nor more_btn" src="img/more.svg" alt="">
+              </a>
+            </section>
+            <section class="cataContent_item item03 ani-sp">
+                <a class="more_box">
+                  <img class="ani-nor more_btn" src="img/more.svg" alt="">
+                </a>
+            </section>
+            <section class="cataContent_item item04 ani-sp">
+                  <a class="more_box">
+                    <img class="ani-nor more_btn" src="img/more.svg" alt="">
+                  </a>
+            </section>
+            <!-- <section id="work" class="cataContent_item item06 ani-sp">
+              <a class="more_box">
+                <img class="ani-nor more_btn" src="img/more.svg" alt="">
+              </a>
+          </section> -->
+          </div>
+    </div>
+
+    
+
+    <!-- landing-page elements -->
+    <div class="indexPage">
+      <div class="line_texture">
+        <figure class="texture01"></figure>
+        <figure class="texture02"></figure>
+        <figure class="texture03"></figure>
+        <figure class="texture04"></figure>
+        <figure class="texture05"></figure>
+        <figure class="texture06"></figure>
+        <figure class="texture07"></figure>
+        <figure class="texture08"></figure>
+        <figure class="texture09"></figure>
+        
+        <div class="introduce ani-sp" id="introduce">
+          <!-- 記得放大頭 畫的還是真人照片 有時間調滾動逐格 -->
+          <figure class="texture13">
+              <img src="img/pic-my-head-04.svg" alt="">
+          </figure>
+          <h3 class="titleText">
+            Hi!<br>I'm Tammy Huang,<br>Welcome to My Portfolio
+          </h3>
+          <p class="locaText">KEELUNG CITY, TAIWAN</p>
+        </div>
+        
+      </div>
+      <main data-tilt data-600="display:block" data-601="display:none"   class="tiltRange">
+
+        <div  class="container mainLogo">
+          
+          <img 
+
+          data-0="top: 90px;"
+          data-450="top: -1000px;"
+
+          class="logoPath path01 ani-nor" src="img/main-logo/main-logo-01-03.svg" alt="">
+          
+          
+          <img 
+          data-50="top: 85px;width:35px;opacity:1"
+          data-400="top: -500px;width:50px;opacity:0"
+
+          class="logoPath path02 ani-nor" src="img/main-logo/main-logo-02-03.svg" alt="">
+          
+
+          <img 
+          data-200="top: 25px;"
+          data-550="top: -1000px;"
+
+          class="logoPath path03 ani-nor" src="img/main-logo/main-logo-03-03.svg" alt="">
+          
+
+          <img 
+
+          data-0="top: 130px;"
+          data-300="top: -500px;"
+          
+          class="logoPath path04 ani-nor" src="img/main-logo/main-logo-04-03.svg" alt="">
+          
+
+          <img 
+          data-250="top: 230px"
+          data-450="top: -600px;"
+          class="logoPath path05 ani-nor" src="img/main-logo/main-logo-05-03.svg" alt="">
+          
+
+          <img 
+          data-100="top: 10px;opacity:1"
+          data-200="top: -250px;opacity:0"
+          data-300="top: -500px;opacity:0"
+          class="logoPath path06 ani-nor" src="img/main-logo/main-logo-06-03.svg" alt="">
+          
+
+          <img 
+          data-100="top: 60px;width: 160px;opacity:1"
+          data-200="top: -100px;width: 240px;opacity:0"
+          data-300="top: -400px;width: 320px;opacity:0"
+          class="logoPath path07 ani-nor" src="img/main-logo/main-logo-07-03.svg" alt="">
+          
+
+          
+          <img 
+          data-0="top: 145px;width:55px;"
+          data-450="top: -1200px;width:30px;"
+          class="logoPath path08 ani-nor" src="img/main-logo/main-logo-08-03.svg" alt="">
+
+          <img 
+          data-150="display:block"data-151="display:none"class="logoPath path09 ani-nor" src="img/main-logo/main-logo-09-03.svg" alt="">
+          
+
+          <img 
+          data-50="top: 240px;"
+          data-350="top: -500px;"
+          class="logoPath path10 ani-nor" src="img/main-logo/main-logo-10-03.svg" alt="">
+          
+
+          
+          <img 
+          data-50="top: 195px;width:225px;opacity:1"
+          data-550="top: -400px;width:200px;opacity:0"
+          
+          class="logoPath path11 ani-nor" src="img/main-logo/main-logo-11-03.svg" alt="">
+
+          
+          <img 
+          data-50="top: 120px;width:62px;opacity:1"
+          data-450="top: -1500px;width:50px;opacity:0"
+          class="logoPath path12 ani-nor" src="img/main-logo/main-logo-12-03.svg" alt="">
+
+          <img data-150="display:block"data-151="display:none"class="logoPath path13 ani-nor" src="img/main-logo/main-logo-13-03.svg" alt="">
+          
+
+          
+          <img 
+          data-0="top: 10px;width:35px;opacity:1"
+          data-450="top: -600px;width:50px;opacity:0"
+          class="logoPath path14 ani-nor" src="img/main-logo/main-logo-14-03.svg" alt="">
+
+        </div>
+
+      </main>
+
+
+      <div id="workPage1" class="workPage page01">
+        <div class="workPage_bg">
+          <h2><span>#</span> Web<br>Design</h2>
+        </div>
+        <figure class="prePage ani-nor" id="prePage">
+          <img src="img/contact-icon/prePage-icon-07.svg" alt="">
+        </figure>
+        <figure class="prePage ani-nor" id="smprePage">
+          <img src="img/contact-icon/prePage-icon-07.svg" alt="">
+        </figure>
+        <div class="content01"></div>
+      </div>
+
+      <nav class="leftNav bgSreen">
+        <div class="leftNavopen">
+          <a>
+            <img class="navbarOpen ani-nor pointerr" src="img/left-navbar-open-06.svg" alt="">
+          </a>
+        </div>
+        <div class="leftNavclose ani-sp">
+            <ul class="cataItemBox d-flex">
+              <li class="ani-nor" id="navHome"><a class="cataItem web ani-nor"><span class="ani-sp">#</span>Home</a></li>
+              <li class="ani-nor mdMargin" id="navAbout"><a class="cataItem web ani-nor"><span class="ani-sp">#</span>About</a></li>
+              <li class="ani-nor tinyMargin" id="navWeb"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>Web Design</a></li>
+              <!-- <li class="ani-nor tinyMargin"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>UI/UX</a></li> -->
+              <li class="ani-nor tinyMargin" id="navLogo"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>Logotype</a></li>
+              <li class="ani-nor tinyMargin" id="navIllus"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>Illustration</a></li>
+              <li class="ani-nor tinyMargin" id="navStop"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>Stop-motion</a></li>
+              <!-- <li class="ani-nor tinyMargin"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>Motion Graphics</a></li> -->
+            </ul>
+            <a id="closeNavBtn">
+                <img class="navbarClose ani-nor pointerr" src="img/left-navbar-close-06.svg" alt="">
+            </a>
+        </div>
+      </nav>
+
+      <nav class="leftNav smScreen">
+          <div class="leftNavopen">
+            <a>
+              <img class="navbarOpen ani-nor pointerr" src="img/left-navbar-open-06.svg" alt="">
+            </a>
+          </div>
+          <div class="leftNavclose ani-sp">
+              <ul class="cataItemBox d-flex">
+                <li class="ani-nor" id="smnavHome"><a class="cataItem web ani-nor"><span class="ani-sp">#</span>Home</a></li>
+                <li class="ani-nor mdMargin" id="smnavAbout"><a class="cataItem web ani-nor"><span class="ani-sp">#</span>About</a></li>
+                <li class="ani-nor tinyMargin" id="smnavWeb"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>Web Design</a></li>
+                <!-- <li class="ani-nor tinyMargin"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>UI/UX</a></li> -->
+                <li class="ani-nor tinyMargin" id="smnavLogo"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>Logotype</a></li>
+                <li class="ani-nor tinyMargin" id="smnavIllus"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>Illustration</a></li>
+                <li class="ani-nor tinyMargin" id="smnavStop"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>Stop-motion</a></li>
+                <!-- <li class="ani-nor tinyMargin"><a class="cataItem web ani-nor tinyText"><span class="ani-sp">#</span>Motion Graphics</a></li> -->
+              </ul>
+              <a id="closeNavBtn">
+                  <img class="navbarClose ani-nor" src="img/left-navbar-close-06.svg" alt="">
+              </a>
+          </div>
+      </nav>
+      
+      <div class="topLogo">
+          <ul class="d-flex">
+            <li class="logo">
+              <a id="home">
+                <img class="animated infinite site_logo" id="logo" src="img/logo-02-04.svg" alt="">
+                <!-- <svg width="50" height="23" version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 227.71 105.88" style="enable-background:new 0 0 227.71 105.88;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.2;}
+</style>
+<g>
+	<path class="svg_logo" d="M87.3,62.31l6.22,20.71l16.44-0.72l7.96-7.82l35.88-35.24l7.7-7.57l4.82-4.73l5.97-5.86c6.42-6.31,4.49-7.76-8.63-17.01
+		c-3.45-1.98-6.34-1.83-8.13-0.06l-53.08,52.14c-1.03,1.01-3.39,0.65-6.18-0.64c-2.52-1.54-5.07-1.05-6.95,0.12
+		C87.77,57.14,86.65,59.59,87.3,62.31z"/>
+</g>
+<g>
+	<path class="svg_logo" d="M88.55,43.5l-6.22-20.71l-16.44,0.72l-7.96,7.82L22.04,66.57l-7.7,7.57l-4.82,4.73l-5.97,5.86
+		c-6.42,6.31-4.49,7.76,8.63,17.01c3.45,1.98,6.34,1.83,8.13,0.06L73.4,49.66c1.03-1.01,3.39-0.65,6.18,0.64
+		c2.52,1.54,5.07,1.05,6.95-0.12C88.07,48.67,89.2,46.22,88.55,43.5z"/>
+</g>
+<g>
+	<path class="svg_logo" d="M205.65,59.27l-6.22-20.71l-16.44,0.72l-7.96,7.82l-19.7,19.54l-7.7,7.57l-4.82,4.73l-5.97,5.86
+		c-6.42,6.31-4.49,7.76,8.63,17.01c3.45,1.98,6.34,1.83,8.13,0.06l36.91-36.44c1.03-1.01,3.39-0.65,6.18,0.64
+		c2.52,1.54,5.07,1.05,6.95-0.12C205.17,64.43,206.3,61.98,205.65,59.27z"/>
+</g>
+<g>
+	<path class="svg_logo" d="M227.52,38.11l-6.22-20.71l-16.44,0.72l-7.96,7.82l15.48,18.33c1.03-1.01,3.39-0.65,6.18,0.64
+		c2.52,1.54,5.07,1.05,6.95-0.12C227.04,43.27,228.17,40.82,227.52,38.11z"/>
+</g>
+<path class="svg_logo" d="M121.38,59.25V37.41L91.69,66.57l-7.7,7.57l-4.82,4.73l-5.97,5.86c-6.42,6.31-4.49,7.76,8.63,17.01
+	c3.45,1.98,6.34,1.83,8.13,0.06l43.32-42.54H121.38z"/>
+</svg> -->
+              </a>
+            </li>
+          </ul>
+        </div>
+      <div class="contact">
+        <ul>
+          <li class="animated infinite "><a target="_blank"href="https://www.instagram.com/tammy820710/">
+            <img src="img/contact-icon/icon01-04.svg" alt="">
+          </a></li>
+          <li class="animated infinite "><a target="_blank"href="https://www.facebook.com/profile.php?id=100001961785379">
+            <img src="img/contact-icon/icon02-04.svg" alt="">
+          </a></li>
+          <li class="animated infinite "><a target="_blank"href="https://www.behance.net/yeah_low_huang">
+            <img src="img/contact-icon/icon03-04.svg" alt="">
+          </a></li>
+          <li class="animated infinite "><a target="_blank" href="https://dribbble.com/tinghuang">
+            <img src="img/contact-icon/icon04-04.svg" alt="">
+          </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- turn to work page -->
+    <div class="translation to_work"></div>
+    <!-- turn to landing page -->
+    <div class="translation to_index"></div>
+
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script src="plugin/jInvertScroll/dist/js/jquery.jInvertScroll.min.js"></script>
+    <script src="tilt.js-master/dest/tilt.jquery.min.js"></script>
+    <script>
+      // 記得給top logo 側欄nav 的滾動值 還有轉場後的頁面
+      
+      var s = skrollr.init()
+
+      $.jInvertScroll(['.bg_fix']);
+
+      $.jInvertScroll(['.workPage_bg']);
+
+      
+      // console.log($(document).height())
+
+      // console.log($(".workPage_bg").width())
+
+      // console.log($(window).width())
+
+      // 大尺寸nav li 的scroll範圍
+
+      $(window).scroll(
+        function(){
+          let scrollTop=$(this).scrollTop()
+          console.log(scrollTop)
+
+          if(scrollTop>=0 && scrollTop<650){
+          $("#navHome").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+          else if (scrollTop>=650 && scrollTop<1630){
+          $("#navAbout").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+          else if (scrollTop>=1630 && scrollTop<2700){
+          $("#navWeb").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+          else if (scrollTop>=2700 && scrollTop<3700){
+          $("#navLogo").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+          else if (scrollTop>=3700 && scrollTop<4200){
+          $("#navIllus").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+          else if (scrollTop>=4200){
+          $("#navStop").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+        }
+      )
+      // 小尺寸nav li 的scroll範圍
+      $(window).scroll(
+        function(){
+          let scrollTop=$(this).scrollTop()
+          console.log(scrollTop)
+
+          if(scrollTop>=0 && scrollTop<450){
+          $("#smnavHome").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+          else if (scrollTop>=451 && scrollTop<1900){
+          $("#smnavAbout").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+          else if (scrollTop>=1901 && scrollTop<2300){
+          $("#smnavWeb").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+          else if (scrollTop>=2301 && scrollTop<2600){
+          $("#smnavLogo").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+          else if (scrollTop>=2601 && scrollTop<2900){
+          $("#smnavIllus").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+          else if (scrollTop>=2901){
+          $("#smnavStop").children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+          }
+        }
+      )
+        // 標題與作品的scrollTop
+      $(window).scroll(
+        function(){
+          let scrollTop=$(this).scrollTop()
+          console.log(scrollTop)
+
+          if(scrollTop>=1900 && scrollTop<=2300 ){
+            $(".smWork .item01").css("left","25vw")
+            $(".title01").addClass("titleIn")
+            
+          }else{
+            $(".title01").removeClass("titleIn")
+            $(".smWork .item01").css("left","")
+          }
+
+          if(scrollTop>=2300 && scrollTop<=2600 ){
+            $(".smWork .item02").css("left","25vw")
+            $(".title02").addClass("titleIn")
+          }else{
+            $(".title02").removeClass("titleIn")
+            $(".smWork .item02").css("left","")
+          }
+
+          if(scrollTop>=2600 && scrollTop<=2900 ){
+            $(".smWork .item03").css("left","25vw")
+            $(".title03").addClass("titleIn")
+          }else{
+            $(".title03").removeClass("titleIn")
+            $(".smWork .item03").css("left","")
+          }
+
+          if(scrollTop>=2900){
+            $(".smWork .item04").css("left","25vw")
+            $(".title04").addClass("titleIn")
+          }else{
+            $(".title04").removeClass("titleIn")
+            $(".smWork .item04").css("left","")
+          }
+        }
+      )
+        // introduce的出現時間
+      $(window).scroll(
+        function(){
+          let scrollTop=$(this).scrollTop()
+          console.log(scrollTop)
+
+          if(scrollTop>=1100){
+            $(".smIntro .intro.intro01").css("transform","translateY(0%)").css("opacity","1")
+          }else{
+            $(".smIntro .intro.intro01").css("transform","").css("opacity","")
+          }
+
+          if(scrollTop>=1300){
+            $(".smIntro .intro.intro02").css("transform","translateY(0%)").css("opacity","1")
+          }else{
+            $(".smIntro .intro.intro02").css("transform","").css("opacity","")
+          }
+
+          if(scrollTop>=1500){
+            $(".smIntro .intro.intro03").css("transform","translateY(0%)").css("opacity","1")
+          }else{
+            $(".smIntro .intro.intro03").css("transform","").css("opacity","")
+          }
+        }
+      )
+
+      
+      $("#home").click(
+        function(){
+          $(".to_index").addClass("index_ani")
+
+          setTimeout(function(){
+            $(".to_index").removeClass("index_ani")
+          },2000)
+
+          setTimeout(function(){
+            $("#workPage1").css("display","none")
+          },1000)
+
+          setTimeout(function(){
+            $(window).scrollTop(0)
+          },1000)
+          
+          setTimeout(function(){
+            $(".leftNavclose").css("left","")
+            $("#introbox").css("left","" )
+            $("#introduce").css("left","" )
+          },900)
+        }
+      );
+
+      $("#navHome , #smnavHome").children().css("opacity","1").children().css("opacity","1").css("font-size","50px")
+
+        // 點擊大尺寸nav li的效果
+
+      $("#navHome").click(
+        function(){
+          $(this).children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+
+          $(".to_index").addClass("index_ani")
+
+          setTimeout(function(){
+            $(".to_index").removeClass("index_ani")
+          },2000)
+
+          setTimeout(function(){
+            $("#workPage1").css("display","none")
+          },1000)
+          
+          setTimeout(function(){
+            $(window).scrollTop(0)
+          },1000)
+
+          setTimeout(function(){
+            $(".leftNavclose").css("left","")
+          },1000)
+        }
+      );
+
+      $("#navAbout").click(
+        function(){
+
+          // window.scrollTo( 0, 750 );
+          $(this).children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+
+          window.scrollTo({ 
+              top: 850, 
+              behavior: "smooth" 
+          });
+          $(".leftNavclose").css("left","0")
+          $("#introbox").css("left","600px" )
+          $("#introduce").css("left","calc( 30vw + 400px)" )
+          
+        }
+      );
+
+      $("#navWeb").click(
+        function(){
+
+          // window.scrollTo( 0, 750 );
+          $(this).children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+
+          window.scrollTo({ 
+              top: 1830, 
+              behavior: "smooth" 
+          });
+
+          $(".leftNavclose").css("left","0")
+        }
+      );
+
+      $("#navLogo").click(
+        function(){
+
+          // window.scrollTo( 0, 750 );
+          $(this).children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+
+          window.scrollTo({ 
+              top: 2900, 
+              behavior: "smooth" 
+          });
+          $(".bgSreen .leftNavclose").css("left","0")
+        }
+      );
+
+      $("#navIllus").click(
+        function(){
+
+          // window.scrollTo( 0, 750 );
+          $(this).children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","")
+
+          window.scrollTo({ 
+              top: 3980, 
+              behavior: "smooth" 
+          });
+          $(".bgSreen .leftNavclose").css("left","0")
+        }
+      );
+
+      $("#navStop").click(
+        function(){
+
+          // window.scrollTo( 0, 750 );
+          $(this).children().css("opacity","1").children().css("opacity","1").css("font-size","50px").parents("li").siblings().children().css("opacity","").children().css("opacity","").css("font-size","1px")
+
+          window.scrollTo({ 
+              top: 4535, 
+              behavior: "smooth" 
+          });
+          
+          $(".bgSreen .leftNavclose").css("left","0")
+          
+        }
+      );
+
+
+      $("#prePage").click(
+        function(){
+          $(".to_index").addClass("index_ani")
+
+        setTimeout(function(){
+          $(".to_index").removeClass("index_ani")
+        },2000)
+
+        setTimeout(function(){
+          window.scrollTo({ 
+              top: 1831, 
+              behavior: "smooth" 
+          });
+    },1000)
+          $(".leftNavclose").css("left","0")
+
+          setTimeout(function(){
+      $("#workPage1").css("display","none")
+    },1000)
+        }
+      );
+
+      $("#smprePage").click(
+        function(){
+          $(".to_index").addClass("index_ani")
+
+        setTimeout(function(){
+          $(".to_index").removeClass("index_ani")
+        },2000)
+
+        setTimeout(function(){
+          window.scrollTo({ 
+              top: 1901, 
+              behavior: "smooth" 
+          });
+    },1000)
+          $(".leftNavclose").css("left","0")
+
+          setTimeout(function(){
+      $("#workPage1").css("display","none")
+    },1000)
+        }
+      );
+
+        // 點擊小尺寸nav li的效果
+
+$("#smnavHome").click(
+  function(){
+    $(".to_index").addClass("index_ani")
+
+    setTimeout(function(){
+      $(".to_index").removeClass("index_ani")
+    },2000)
+
+    setTimeout(function(){
+      $("#workPage1").css("display","none")
+    },1000)
+    
+    setTimeout(function(){
+      $(window).scrollTop(0)
+    },1000)
+  }
+);
+
+$("#smnavAbout").click(
+  function(){
+    window.scrollTo({ 
+        top: 701, 
+        behavior: "smooth" 
+    });
+  }
+);
+
+$("#smnavWeb").click(
+  function(){
+    window.scrollTo({ 
+        top: 1901, 
+        behavior: "smooth" 
+    });
+  }
+);
+
+$("#smnavLogo").click(
+  function(){
+    window.scrollTo({ 
+        top: 2301, 
+        behavior: "smooth" 
+    });
+  }
+);
+
+$("#smnavIllus").click(
+  function(){
+    window.scrollTo({ 
+        top: 2601, 
+        behavior: "smooth" 
+    });
+  }
+);
+
+$("#smnavStop").click(
+  function(){
+
+    window.scrollTo({ 
+        top: 2901, 
+        behavior: "smooth" 
+    });
+  }
+);
+
+
+
+// 大小尺寸的伸縮btn
+      $(".contact li").mouseenter(function(){
+        $(this).addClass("rubberBand")
+      })
+
+      $(".contact li").mouseleave(function(){
+        $(this).removeClass("rubberBand")
+      })
+
+      $(".smScreen .leftNavopen a").click(function(){
+        $(".smScreen .leftNavclose").css("top","0")
+      })
+
+      $(".smScreen .leftNavclose a , .bg_fix").click(function(){
+        $(".smScreen .leftNavclose").css("top","")
+      })
+
+      $(".bgSreen .leftNavopen a").click(function(){
+        $(".bgSreen .leftNavclose").css("left","0")
+        $("#introbox").css("left","600px" )
+        $("#introduce").css("left","calc( 30vw + 400px)" )
+      })
+
+      $(".bgSreen .leftNavclose a , .bg_fix").click(function(){
+        $(".bgSreen .leftNavclose").css("left","")
+        $("#introbox").css("left","" )
+        $("#introduce").css("left","" )
+      })
+
+      $(".cataContent_item").click(
+        function(){
+          $(".to_work").addClass("work_ani")
+
+          setTimeout(function(){
+            $(".to_work").removeClass("work_ani")
+          },2000)
+
+          setTimeout(function(){
+            $("#workPage1").css("display","block")
+          },1000)
+
+          setTimeout(function(){
+            $(window).scrollTop(0)
+          },1000)
+        }
+      );
+      
+      jQuery('img.svg').each(function(){   
+    var $img = jQuery(this);   
+    var imgID = $img.attr('id');   
+    var imgClass = $img.attr('class');   
+    var imgURL = $img.attr('src');   
+  
+    jQuery.get(imgURL, function(data) {   
+        // Get the SVG tag, ignore the rest   
+        var $svg = jQuery(data).find('svg');   
+  
+        // Add replaced image's ID to the new SVG   
+        if(typeof imgID !== 'undefined') {   
+            $svg = $svg.attr('id', imgID);   
+        }   
+        // Add replaced image's classes to the new SVG   
+        if(typeof imgClass !== 'undefined') {   
+            $svg = $svg.attr('class', imgClass+' replaced-svg');   
+        }   
+  
+        // Remove any invalid XML tags as per http://validator.w3.org   
+        $svg = $svg.removeAttr('xmlns:a');   
+  
+        // Check if the viewport is set, if the viewport is not set the SVG wont't scale.   
+        if(!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) {   
+            $svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'))   
+        }   
+  
+        // Replace image with new SVG   
+        $img.replaceWith($svg);   
+  
+    }, 'xml');   
+  
+});  
+    </script>
+  </body>
+</html>

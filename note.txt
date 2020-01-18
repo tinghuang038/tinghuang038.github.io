@@ -1,0 +1,17 @@
+1700
+3076
+
+per work scrollTop: 450
+
+
+273vw
+
+.line_texture .workTile fixed
+.none_bg .cataContent_item fixed
+
+
+about 450
+web 1900
+logo 2300
+illus 2600
+stop 2900

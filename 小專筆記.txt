@@ -1,0 +1,16 @@
+1. logo svg變色
+
+
+https://www.w3schools.com/graphics/svg_path.asp
+https://css-tricks.com/change-color-of-svg-on-hover/
+
+
+
+2. main logo tilt 左上角 bug
+
+3. 因為指令下在標籤 要寫兩套
+
+4. bg_fix 的寬度
+
+5. 變視窗寬度 圖或背景會跑掉
+

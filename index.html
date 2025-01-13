@@ -114,10 +114,19 @@
       </div>
       <div class="service-wrapper">
         <div class=" justify-content-center row">
-          <div class="description service-me-70 col-xl-5" data-aos="fade-right">
-            <img src="./images/icon/icon4.png" alt="icon">
-            <h3>半永久妝感霧眉</h3>
-            <p>
+          <div class="description service-me-70 col-xl-5" >
+<!--            <img src="./images/icon/icon4.png" alt="icon">-->
+            <div class="icon-wrapper">
+              <figure>
+                <img src="./images/icon1/icon.png" alt="icon" data-aos="fade-right">
+                <img src="./images/icon1/bg1.png" alt="icon">
+                <img src="./images/icon1/bg2.png" alt="icon">
+                <img src="./images/icon1/bg3.png" alt="icon">
+                <img src="./images/icon1/bg4.png" alt="icon">
+              </figure>
+            </div>
+            <h3 data-aos="fade-right">半永久妝感霧眉</h3>
+            <p data-aos="fade-right">
               操作採用打霧的方式，會呈現淡淡的點狀霧感。眉毛宛如上了眉粉一般，柔和的眉毛底色，適合喜歡帶有微妝感的人。</p>
           </div>
           <div class="carousel type-1 col-xl-7 service-mt-36" data-aos="fade-left">
@@ -363,23 +372,25 @@
         prevArrow: "<button type='button' class='slick-prev slick-arrow' ><img src='./images/icon/chevron-left.png' alt=''></button>",
         nextArrow: "<button type='button' class='slick-next slick-arrow' ><img src='./images/icon/chevron-right.png' alt=''></button>"
       });
+
+      AOS.init({
+        duration: 1500,
+        easing: 'slide',
+        once: false,
+        disable: 'mobile',
+        anchorPlacement: 'center-bottom'
+      });
     });
 
     $('.navbar-nav>li>a').on('click', function () {
       $('.navbar-collapse').collapse('hide');
     });
 
-    AOS.init({
-      duration: 1500,
-      easing: 'slide',
-      once: false,
-      disable: 'mobile',
-      anchorPlacement: 'center-bottom'
-    });
 
-    $('.carousel').on('init reInit afterChange', function() {
-      AOS.refresh();
-    });
+
+    // $('.carousel').on('init reInit afterChange', function() {
+    //   AOS.refresh();
+    // });
 
     $(window).scroll(function () {
       if ($(this).scrollTop() > 300) {

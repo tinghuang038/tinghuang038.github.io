@@ -328,7 +328,7 @@
               <!--            <div class="icon-bg me-3">-->
               <!--              <img src="./images/instagram.svg" alt="instagram icon" >-->
               <!--            </div>-->
-              <a class="icon-bg" target="_blank" href="line://ti/p/changwenya0530" rel="noopener noreferrer">
+              <a id="daja-line" class="icon-bg" target="_blank" href="line://ti/p/changwenya0530" rel="noopener noreferrer">
                 <img src="./images/line.svg" alt="line icon">
               </a>
             </div>
@@ -365,12 +365,26 @@
 
   <script>
     $(document).ready(function () {
+
       $('.carousel').slick({
         dots: true,
         arrows: true,
         prevArrow: "<button type='button' class='slick-prev slick-arrow' ><img src='./images/icon/chevron-left.png' alt=''></button>",
         nextArrow: "<button type='button' class='slick-next slick-arrow' ><img src='./images/icon/chevron-right.png' alt=''></button>"
       });
+
+      function updateMessage() {
+        let width = $(window).width();
+        if (width < 600) {
+          $('#daja-line').attr('href', 'https://line.me/R/ti/p/changwenya0530');
+        } else if (width < 1024) {
+          $('#daja-line').attr('href', 'line://ti/p/changwenya0530');
+        }
+      }
+
+      // 初始化
+      updateMessage();
+
     });
 
     $('.navbar-nav>li>a').on('click', function () {
